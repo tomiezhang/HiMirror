@@ -1,8 +1,8 @@
 /*reset*/
-    		body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;} 
-h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;} 
-ol,ul{ list-style:none;} 
-img,fieldset{ border:0 none; display:block;} 
+    		body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+ol,ul{ list-style:none;}
+img,fieldset{ border:0 none; display:block;}
     		body {
     			background: #000;
     			color: rgba(250,250,250,0.5);
@@ -64,8 +64,11 @@ img,fieldset{ border:0 none; display:block;}
     			font-size: 40px;
     			display:inline-block;
     			vertical-align:middle
-    			
+
     		}
+        .weather .hd p span {
+          letter-spacing: -26px;
+        }
     		.weather .hd .AIQ {
     			font-size: 12px;
     			padding: 0 8px;
